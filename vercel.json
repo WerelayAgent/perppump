@@ -1,28 +1,36 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "https://purps.lol/api/$1"
-    },
-    {
-      "source": "/_next/data/(.*)",
-      "destination": "https://purps.lol/_next/data/$1"
-    },
-    {
-      "source": "/_next/image(.*)",
-      "destination": "https://purps.lol/_next/image$1"
-    },
-    {
-      "source": "/images/(.*)",
-      "destination": "https://purps.lol/images/$1"
-    },
-    {
-      "source": "/brand/(.*)",
-      "destination": "https://purps.lol/brand/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+    "rewrites":  [
+                     {
+                         "destination":  "https://carmella-1k2mk3-fast-mainnet.helius-rpc.com",
+                         "source":  "/helius-rpc"
+                     },
+                     {
+                         "destination":  "https://carmella-1k2mk3-fast-mainnet.helius-rpc.com/$1",
+                         "source":  "/helius-rpc/(.*)"
+                     },
+                     {
+                         "source":  "/api/(.*)",
+                         "destination":  "https://purps.lol/api/$1"
+                     },
+                     {
+                         "source":  "/_next/data/(.*)",
+                         "destination":  "https://purps.lol/_next/data/$1"
+                     },
+                     {
+                         "source":  "/_next/image(.*)",
+                         "destination":  "https://purps.lol/_next/image$1"
+                     },
+                     {
+                         "source":  "/images/(.*)",
+                         "destination":  "https://purps.lol/images/$1"
+                     },
+                     {
+                         "source":  "/brand/(.*)",
+                         "destination":  "https://purps.lol/brand/$1"
+                     },
+                     {
+                         "source":  "/(.*)",
+                         "destination":  "/index.html"
+                     }
+                 ]
 }
