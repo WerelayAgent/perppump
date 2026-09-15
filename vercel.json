@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://perppump.lol/api/$1"
+    },
+    {
+      "source": "/_next/data/(.*)",
+      "destination": "https://perppump.lol/_next/data/$1"
+    },
+    {
+      "source": "/_next/image(.*)",
+      "destination": "https://perppump.lol/_next/image$1"
+    },
+    {
+      "source": "/images/(.*)",
+      "destination": "https://perppump.lol/images/$1"
+    },
+    {
+      "source": "/brand/(.*)",
+      "destination": "https://perppump.lol/brand/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
