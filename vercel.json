@@ -2,23 +2,23 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://perppump.lol/api/$1"
+      "destination": "https://purps.lol/api/$1"
     },
     {
       "source": "/_next/data/(.*)",
-      "destination": "https://perppump.lol/_next/data/$1"
+      "destination": "https://purps.lol/_next/data/$1"
     },
     {
       "source": "/_next/image(.*)",
-      "destination": "https://perppump.lol/_next/image$1"
+      "destination": "https://purps.lol/_next/image$1"
     },
     {
       "source": "/images/(.*)",
-      "destination": "https://perppump.lol/images/$1"
+      "destination": "https://purps.lol/images/$1"
     },
     {
       "source": "/brand/(.*)",
-      "destination": "https://perppump.lol/brand/$1"
+      "destination": "https://purps.lol/brand/$1"
     },
     {
       "source": "/(.*)",
