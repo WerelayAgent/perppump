@@ -1,6 +1,10 @@
 {
     "rewrites":  [
                      {
+                         "source":  "/api/rpc/robinhood",
+                         "destination":  "https://purps.lol/api/rpc/robinhood"
+                     },
+                     {
                          "destination":  "https://carmella-1k2mk3-fast-mainnet.helius-rpc.com",
                          "source":  "/helius-rpc"
                      },
